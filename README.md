@@ -59,3 +59,16 @@ This ensures the lineage graph remains a valid Directed Acyclic Graph (DAG).
 
 http://44.207.6.208:8000/docs
 
+1.yum install git -y
+2.git clone https://github.com/<your-username>/metadata-service.git
+3.cd metadata-service
+4.DATABASE_URL=mysql+pymysql://username:password@db:3306/metadata (i have given my own passwords)
+5.yum install docker -y
+6.systemctl docker start
+7.stemctl enable docker
+8.installing docker compose
+9.docker compose up -d --build
+10.docker ps
+
+
+
